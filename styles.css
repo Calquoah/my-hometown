@@ -2,23 +2,32 @@ body {
     margin: 0px;
     text-align: center;
     font-family: 'Limelight', cursive;
+    color: #E9CE2C;
+    text-shadow: 0px 0px 5px black;
 }
 
 img {
     width: 200px;
     border: 2px solid black;
-    border-radius: 50%;
+    border-radius: 25%;
 }
 
-.hero-section {
-    background-image: url("images/wilkes-barre-night.png");
+#hero-section {
+    background-image: url("images/daytime-wb-2.jpg");
     background-size: cover;
+    padding: 150px 100px;
 }
 
-.activities-section {
-    background: #71b48d;
+
+#activities-section {
+    background: linear-gradient(#A1CDF4, #E9CE2C );
+    text-shadow: 0px 0px 5px black;    
+    padding: 50px 50px;
+
 }
 
-.guide-section {
-    background: #86CB92;
+.events {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
