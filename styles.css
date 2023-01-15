@@ -37,7 +37,7 @@ img {
 
 
 #activities-section {
-    background: linear-gradient(#A1CDF4, #E9CE2C );
+    background: linear-gradient(#cdc392, #E9CE2C );
     text-shadow: 0px 0px 5px black;    
     padding: 50px 50px;
     display: flex;
@@ -52,6 +52,13 @@ img {
     padding: 4px 8px;
     border-radius: 5px;
     margin: -20px 0px 20px 0px;
+}
+
+#guide {
+    background: #102b3f;
+    padding: 4px 8px;
+    border-radius: 5px;
+    margin: 20px 0px 20px 0px;
 }
 
 .events {
