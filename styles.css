@@ -7,4 +7,18 @@ body {
 img {
     width: 200px;
     border: 2px solid black;
+    border-radius: 50%;
+}
+
+.hero-section {
+    background-image: url("images/wilkes-barre-night.png");
+    background-size: cover;
+}
+
+.activities-section {
+    background: #71b48d;
+}
+
+.guide-section {
+    background: #86CB92;
 }
