@@ -3,7 +3,7 @@ body {
     text-align: center;
     font-family: 'Limelight', cursive;
     color: #E9CE2C;
-    text-shadow: 0px 0px 5px black;
+    text-shadow: 0px 0px 10px black;
 }
 
 img {
@@ -11,6 +11,7 @@ img {
     border: 2px solid black;
     border-radius: 25%;
 }
+
 
 #hero-section {
     background-image: url("images/daytime-wb-2.jpg");
@@ -37,14 +38,12 @@ img {
 
 
 #activities-section {
-    background: linear-gradient(#cdc392, #E9CE2C );
+    background: linear-gradient(/*#ccff33*/#E8BF2B, #f1981f );
     text-shadow: 0px 0px 5px black;    
     padding: 50px 50px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-
+    align-items: center; 
 }
 
 #activity-title {
@@ -61,8 +60,20 @@ img {
     margin: 20px 0px 20px 0px;
 }
 
+
 .events {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
 }
+
+.event-img {
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.event-img:hover {
+    transform: scale(1.2);
+}
+
